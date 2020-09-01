@@ -16,7 +16,6 @@ public class SpriteToCamera : MonoBehaviour
 
      private float dotForward = 0f;
      private float dotRight = 0f;
-     private bool moveBool = false;
 
 
      // Start is called before the first frame update
@@ -62,12 +61,10 @@ public class SpriteToCamera : MonoBehaviour
           if (Input.GetButton("Vertical"))
           {
                spriteAnimator.SetBool("MoveBool", true);
-               moveBool = true;
           }
           else
           {
                spriteAnimator.SetBool("MoveBool", false);
-               moveBool = false;
           }
 
           
