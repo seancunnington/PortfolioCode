@@ -10,13 +10,7 @@ public class CharController : MonoBehaviour
      public bool toggleGizmos = true;
 
 
-     // Start is called before the first frame update
-     void Start()
-     {
-        
-     }
 
-     // Update is called once per frame
      void Update()
      {
           MoveCharacter();
@@ -24,7 +18,7 @@ public class CharController : MonoBehaviour
      }
 
 
-
+     /*
      private void MoveCharacterWASD()
      {
           float moveX = 0f;
@@ -45,7 +39,7 @@ public class CharController : MonoBehaviour
           // Move Character
           transform.localPosition += new Vector3(moveX, 0, moveZ);
      }
-
+     */
 
      private void MoveCharacter()
      {
